@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         DEV_PROJECT = "mamilicich-books-dev"
-        STAGE_PROJECT = mamilicich-books-stage"
+        STAGE_PROJECT = "mamilicich-books-stage"
         APP_GIT_URL = "https://github.com/maximilicich/DO288-apps"
         NEXUS_SERVER = "http://nexus-common.apps.ocp-la1.prod.nextcle.com/repository/nodejs"
 
